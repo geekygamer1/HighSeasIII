@@ -1,0 +1,39 @@
+{
+    "story" : {
+        "id" : "story04",
+        "name" : "High Seas III",
+        "pic_path" : "resources/auf-hoher-see.jpg",
+        "rating" :  "G",
+        "summary" : "adventure on the high seas",
+        "chapters" : [
+            {
+                "id" : "chapter01",
+                "name" : "Still More Voyaging",
+                "is_first_chapter" : true,
+                "text" : "You're still at sea searching for a mythical creature. It's been at least two years. As you sit up in the crows nest there's nothing but blue smooth water as far as you can see. This has the makings of the world's most boring trillogy ever. Suddenly, you see something appear just on the horizon off the starboard bow. It might be smoke again.",
+                "pic_path" : "resources/auf-hoher-see.jpg",
+                "choices" : [
+                    {
+                        "chapter_id" : "chapter02",
+                        "text" : "Inform the captain. It's been at least a year since you saw smoke last time."
+                    },
+                    {
+                        "chapter_id" : "chapter03",
+                        "text" : "Keep it to yourself. You've been told only to bother him if you see scales, wings, and fire."
+                    }
+                ]
+            },
+            {
+                "id" : "chapter02",
+                "name" : "Ignore The Smoke",
+                "text" : "You tell the captain and just as you thought, he screams, \"Them's the same locals, lad! We're going in circles!"
+            },
+            {
+                "id" : "chapter03",
+                "name" : "More Sailing",
+                "text" : "You say nothing and the ship sails on. You can't help but wonder what's going on over there, though."
+            }
+        ]
+    }
+
+}
